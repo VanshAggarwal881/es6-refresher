@@ -20,4 +20,8 @@ const obj = {
 
 export default obj;
 ```
-
+app.js
+```bash
+import obj from './one.js';
+console.log(obj.myname);
+```
